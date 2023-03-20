@@ -150,7 +150,7 @@ class CircularList {
   }
 
   findFirst(data) {
-    let indOfList = 0;
+    let indOfList = 1;
     let tmp = this.head;
     while (tmp.next !== this.head) {
       if (tmp.data === data) return indOfList;
