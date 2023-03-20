@@ -194,14 +194,4 @@ class CircularList {
   }
 }
 
-const list = new CircularList();
-const list2 = new CircularList();
-
-list2.append('g');
-list2.append('g');
-list2.append('g');
-list.extend(list2);
-list2.deleteAll('g');
-console.log(list2.clone());
-list.extend(list2);
-list.print();
+module.exports = CircularList;
